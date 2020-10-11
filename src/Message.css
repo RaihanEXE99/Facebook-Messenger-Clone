@@ -1,0 +1,31 @@
+.message{
+    padding:  0px;
+    margin: 10px;
+    max-width: 55% !important;
+    text-align: left;
+    word-wrap: break-word;
+}
+.message__user{
+    margin-left: auto;
+    color: white;
+    text-align: left !important;
+}
+
+.message__userCard{
+    /* background:  #5ca5f3 !important; */
+    background-color: #f54456 !important;
+    color: white !important;
+}
+
+.message__guestCard{
+    background-color: #e9e9eb !important;
+}
+
+.MuiCardContent-root{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+.MuiTypography-h6{
+    font-size: 1 rem !important;
+}
+

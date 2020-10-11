@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  /* background-color: #36393f; */
+  /* color: white; */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app__form {
+  /* background-color: #40444b; */
+  text-align: center;
+  background-color: white;
+  /* margin-left: 10%; */
+  padding: 2%;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  width: 97%;
+  /* border-radius: 1%; */
+}
+
+.app__formControll{
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app__input{
+  flex: 1;
+}
+
+.app_iconButton{
+  flex: 0;
+}
+
+.MC__h2{
+  color:grey;
+}
+
+/* .MuiFormControl-root{
+  padding-right: 20% !important;
+  padding-left: 20% !important;
+  margin-left: 20%;
+} */
+
+/* .MuiInputBase-input{
+  background: black !important;
+  margin-left: 5vw !important;
+}
+
+.MuiInput-input{
+  margin-left: 5vw !important;
+} */
